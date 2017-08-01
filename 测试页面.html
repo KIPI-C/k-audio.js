@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--审核员注意一下
+这里的lrc文件是用于测试歌词功能的
+请勿随便删除
+如果要修改lrc文件名
+请把下面的
+<script>
+    kac(document.getElementsByTagName("audio")[0],"320px","1.lrc");
+    kac(document.getElementsByTagName("audio")[1],"320px","2.lrc");
+</script>
+里面的lrc文件名修改一下
+谢谢配合
+-->
+<html >
+<head>
+    <style>
+        code{
+            padding: 0 10px;
+        }
+        pre{
+            display: block;
+            background: #fbfbfb;
+        }
+        body{
+            background: #fff;
+            height: auto;
+        }
+        html{
+            height: auto;
+        }
+        .big{
+            text-align: center;
+            color: #00BFFF;
+            font-size: xx-large;
+        }
+        h1{
+            padding-top:100px ;
+            font-size: 100px;
+        }
+        h2{
+            padding-top:100px;
+            font-size: 90px;
+        }
+        button{
+            margin: 10% auto;
+            display: block;
+            border: hidden;
+            width: 30%;
+            padding: 10px 5px;
+            height: auto;
+            background-color: #ff6200;
+            border-radius: 4px;
+            color: white;
+            font-size: 50px;
+            transition: border 0.1s ease;
+        }
+        button:hover{
+            border: #00BFFF 4px inset;
+        }
+        .fly{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background: deepskyblue;
+            color: #fff;
+            font-size: 20px;
+            display: block;
+            z-index: 10;
+        }
+        @media screen and (max-width: 768px){
+            button{
+                width: 60%;
+            }
+        }
+        @media screen and (max-width: 500px){
+            button{
+                width: 80%;
+                font-size: 30px;
+            }
+            h1{
+                padding-top: 0;
+                font-size: 60px;
+                padding-bottom: 30px;
+                margin: 0;
+            }
+            h2{
+                font-size: 45px;
+                padding: 10px;
+            }
+        }
+        @media screen and (max-width: 431px){
+            .fly{
+                height: 130px;
+            }
+        }
+        .index{
+            display: inline-block;
+            background: rgba(0,0,0,.1);
+            margin: auto;
+            cursor: pointer;
+            height: 70%;
+            max-height: 40px;
+            width: 100px;
+            text-align: center;
+            padding-top: 20px;
+            margin-bottom:10px;
+        }
+        .index:hover{
+        }
+        .kc-body{
+            display: block;
+            margin: 5px auto;
+        }
+        mark{
+            background: deepskyblue;
+            color: #fff;
+        }
+    </style>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="KIPI-C">
+    <Meta name="Copyright" Content="本页版权归kipi-c所有。All Rights Reserved">
+<title>k-audio.js测试页面</title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="k-audio.js"></script>
+
+</head>
+<body onloadstart="window.location='#b0';">
+<div class="fly">
+    <div class="index" onclick="$('.big').hide();$('#b7').hide();$('#b0').show();">
+        介绍
+    </div>
+    <div class="index" onclick="$('.big').hide();$('#b7').show();$('.kc-body').show();">
+        演示
+    </div>
+    <div class="index" onclick="$('.big').hide();$('#b7').hide();$('#b8').show();">
+        关于
+    </div>
+    <div class="index" onclick="$('.big').hide();$('#b7').hide();$('#b9').show();">
+        教程
+    </div>
+<div class="big"  id="b0">
+    <h1>0贴图</h1>
+    利用H5&lt;canvas&gt;画布技术
+    多为您省几毫秒的加载时间<br>
+    多为用户省半kb的移动数据
+    <button onclick="$('#b0').hide();$('#b1').show();">NEXT&gt;&gt;</button>
+</div>
+<div class="big" style="color: #00FF00" id="b1">
+    <h1>歌词支持</h1>
+    前所未有地超越其他H5audiojs<br>
+    利用ajax技术获取文件<br> 以独特算法计算
+    <button onclick="$('#b1').hide();$('#b2').show();">NEXT&gt;&gt;</button>
+</div>
+<div class="big" style="color: #00FF7F" id="b2">
+    <h1>轻巧简便</h1>
+    加载时间极短<br>
+    迅速打开没有延迟
+    <button onclick="$('#b2').hide();$('#b3').show();">NEXT&gt;&gt;</button>
+</div>
+<div class="big" style="color: #01fffe" id="b3">
+    <h1>结构紧凑</h1>
+    多个文件集于一身<br>
+    无需费心加载图片，css
+    <button onclick="$('#b3').hide();$('#b4').show();">NEXT&gt;&gt;</button>
+</div>
+<div class="big" style="color: #00FF00" id="b4">
+    <h1>设计精细</h1>
+    利用小清新风格制作<br>
+    外型美观，功能实用
+    <button onclick="$('#b4').hide();$('#b5').show();">NEXT&gt;&gt;</button>
+</div>
+<div class="big" style="color: #884eff" id="b5">
+    <h1>结构紧凑</h1>
+    多个文件集于一身<br>
+    一个js<br>多方扩展
+    <button onclick="$('#b5').hide();$('#b6').show();">NEXT&gt;&gt;</button>
+</div>
+<div class="big" style="color: #ffba00" id="b6">
+    <h2>这就是：k-audio.js</h2>
+    <button onclick="$('#b6').hide();$('#b7').show();$('.kc-body').show();">去体验一下&gt;&gt;</button>
+</div>
+<div id="b7" style="padding-top: 100px">
+    <audio controls src="1.mp3"></audio>
+    <audio controls src="2.mp3"></audio>
+</div>
+<div id="b8" class="big">
+    本js由KIPI-C制作
+    下载地址：<a href="https://github.com/KIPI-C/k-audio.js">https://github.com/KIPI-C/k-audio.js</a>
+    随时更新哦
+</div>
+    <div id="b9" class="big" style="text-align: justify; width:auto;height: auto;padding: 0 150px">
+        <div style="border-left:black 1px solid;border-right:black 1px solid;padding:20px 50px ">
+        <h3>k-audio.js教程</h3>
+          <p>欢迎使用k-audio.js,这是我们的官方教程</p>
+          <p>介绍：这是一个风格清新，操作简单，支持<mark>歌词播放</mark>，您的H5网页音乐播放必备神器。</p>
+          <p>怎么使用：在你的网页下方输入代码：</p>
+          <pre><code>
+&lt;script&gt;
+var a=new kac([element]audio,[string||nuber]width,[url]lrc);
+&lt;/script&gt;
+          </code></pre>
+            其中：<mark>audio</mark>是指需要控制的audio元素
+        </div></div>
+
+
+
+<script>
+    var a=new kac(document.getElementsByTagName("audio")[0],"320px","https://raw.githubusercontent.com/KIPI-C/k-audio.js/master/1.lrc");
+    var b=new kac(document.getElementsByTagName("audio")[1],"320px","https://raw.githubusercontent.com/KIPI-C/k-audio.js/master/2.lrc");
+</script>
+<script>
+    $(".big").css("width",(parseInt(screen.width))+"px").hide();
+    $("#b0").show();
+    $(".kc-body").hide();
+</script>
+</body>
+</html>
