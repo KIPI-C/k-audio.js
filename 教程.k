@@ -7,4 +7,11 @@
 var a=new kac([element]audio,[string||nuber]width,[url]lrc);
 &lt;/script&gt;
           </code></pre>
-            其中：<mark>audio</mark>是指需要控制的audio元素
+          <p>
+            其中：<mark>audio</mark>是指需要控制的audio元素，</p>
+            <p><mark>width</mark>是指宽，</p>
+            <p><mark>lrc</mark>是lrc的链接</p>
+            <h5>举个例子：</h5>
+            <pre><code>
+            var a=new kac(document.getElementById("audio"),320,"lrcfile.lrc")
+            </code></pre>
