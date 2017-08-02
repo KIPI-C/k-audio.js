@@ -34,3 +34,8 @@
         多个文件集于一身<br>
         一个js<br>多方扩展
         <button onclick="$('#b5').hide();$('#b6').show();">NEXT&gt;&gt;</button>
+    </div>
+    <div class="big" style="color: #ffba00" id="b6">
+        <h2>这就是：k-audio.js</h2>
+        <button onclick="$('#b6').hide();$('#b7').show();$('.kc-body').show();">去体验一下&gt;&gt;</button>
+    </div>
