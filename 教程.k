@@ -14,4 +14,4 @@ var a=new kac([element]audio,[string||nuber]width,[url]lrc);
             <h5>举个例子：</h5>
             <code>
             var a=new kac(document.getElementById("audio"),320,"lrcfile.lrc")
-            </code>
+            </code> 
