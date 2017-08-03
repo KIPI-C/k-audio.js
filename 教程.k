@@ -15,10 +15,10 @@ var a=new kac([element]audio,[string||nuber]width,[url]lrc);
             <code>
             var a=new kac(document.getElementById("audio"),320,"lrcfile.lrc")
             </code> 
-            内置API：
-            play();播放音乐
-            pause();暂停音乐
-            stop();停止音乐
-            style();更改颜色
-            info();获取歌曲信息
+            <p>内置API：
+            <p>play();播放音乐</p>
+            <p>pause();暂停音乐</p>
+            <p>stop();停止音乐</p>
+            <p>style();更改颜色</p>
+            <p>info();获取歌曲信息</p>
             
