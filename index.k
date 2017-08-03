@@ -1,4 +1,4 @@
-<div class="big"  id="b0">
+<div class="big"  id="b0" >
         <h1>0贴图</h1>
         利用H5&lt;canvas&gt;画布技术
         多为您省几毫秒的加载时间<br>
@@ -39,3 +39,7 @@
         <h2>这就是：k-audio.js</h2>
         <button onclick="$('#b6').hide();$('#b7').show();$('.kc-body').show();">去体验一下&gt;&gt;</button>
     </div>
+    <script>
+    $(".big").css("width",(parseInt(screen.width))+"px").hide();
+            $("#b0").show();
+            </script>
