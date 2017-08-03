@@ -4,7 +4,11 @@
             <p>怎么使用：在你的网页下方输入代码：</p>
             <code>
 &lt;script&gt;
-var a=new kac([element]audio,[string||nuber]width,[url]lrc);
+var a=new kac(
+[element]audio,
+[string||nuber]width,
+[url]lrc
+);
 &lt;/script&gt;
           </code>
           <p>
