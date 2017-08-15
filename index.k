@@ -7,8 +7,8 @@
     </div>
     <div class="big" style="color: #00FF00;display:none" id="b1">
         <h1>歌词支持</h1>
-        前所未有地超越其他H5audiojs<br>
-        利用ajax技术获取文件<br>以独特算法计算
+        使用k-lrcreader歌词读取引擎<br>
+        利用ajax技术获取文件<br>以独特算法快速读取
         <button onclick="$('#b1').hide();$('#b2').show();">NEXT&gt;&gt;</button>
     </div>
     <div class="big" style="color: #00FF7F;display:none" id="b2">
