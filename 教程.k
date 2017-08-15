@@ -4,10 +4,11 @@
             <p>怎么使用：在你的网页下方输入代码：</p>
             <code>
 &lt;script&gt;
-var a=new kac(
+var a=new kac(<br/>
 [element]audio,
 [string||nuber]width,
-[url]lrc
+[url]lrc,
+[Boolean]translation<br/>
 );
 &lt;/script&gt;
           </code>
@@ -15,14 +16,22 @@ var a=new kac(
             其中：<mark>audio</mark>是指需要控制的audio元素，</p>
             <p><mark>width</mark>是指宽，</p>
             <p><mark>lrc</mark>是lrc的链接</p>
+            <p><mark>translation</mark>为是否启动翻译</p>
             <h5>举个例子：</h5>
             <code>
-            var a=new kac(document.getElementById("audio"),320,"lrcfile.lrc")
+            var a=new kac(<br/>
+            document.getElementById("audio"),320,"lrcfile.lrc",true)
             </code> 
-            <p>内置API：
+            <p>内置API:</p>
             <p>play();播放音乐</p>
             <p>pause();暂停音乐</p>
             <p>stop();停止音乐</p>
-            <p>style();更改颜色</p>
+            <p>style(color);更改颜色</p>
             <p>info();获取歌曲信息</p>
-            
+            <p>width(width);设置宽</p>
+            <p>height(height);设置高</p>
+            <p>version();获取版本信息</p>
+<p>为lrc注入翻译内容的方法：</p>
+<p>把lrc后面加入“<mark>|</mark>”，</p>
+<p>例如：[00:12:00]hello|你好</p>
+<p>歌词读取器（k-lrcreader）就会自动读取翻译</p>
