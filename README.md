@@ -1,8 +1,8 @@
 <div style="background:#F0FaFF">
-<span style="font-size:50;font-weight:500;color:#00bfaF;">k-audio</span>
-<span style="font-size:25;color:#00bffF;">-- 一个可以自定义外观的播放器</span><br>
-<h4 style="color:orange;background:#F0FaFF">> 功能介绍:</h4>
-<ul style="font-size:25">
+<h2 style="font-size:50px;font-weight:700;color:#00bfaF;">k-audio</h2>
+<span style="font-size:25px;color:#00bffF;">-- 一个可以自定义外观的播放器</span><br>
+<h4 style="color:orange;background:#F0FaFF;font-size:25px;">> 功能介绍:</h4>
+<ul style="font-size:25px">
 <li>使用方便，仅导入一个js即可使用，<span style="color:#00bffF;">自动化处理</span>内部的CSS与HTML</li>
 <li>歌词解析，使用KIPI-C独家开发的k-lrcreader.js，快速解析你的lrc</li>
 <li>自动适应，面对多种环境自动适应，无需花时间去修正外观（测试版）</li>
@@ -13,5 +13,4 @@
 <li>UI清新，利用清新风格制作，设计美观，符合大家的审美需求</li>
 </ul>
 </div>
-<iframe src="www.baidu.com"></iframe>
 
