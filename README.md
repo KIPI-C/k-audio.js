@@ -13,7 +13,5 @@
 <li>UI清新，利用清新风格制作，设计美观，符合大家的审美需求</li>
 </ul>
 </div>
-<script>
-console.log(666)
-</script>
+<iframe src="www.baidu.com"></iframe>
 
