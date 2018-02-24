@@ -36,7 +36,7 @@
         <button onclick="$('#b5').hide();$('#b6').show();">NEXT&gt;&gt;</button>
     </div>
     <div class="big" style="color: #ffba00;display:none" id="b6">
-        <h2>这就是：k-audio.js</h2>
+        <h2>这就是：k-audio.js（测试版）</h2>
         <button onclick="$('#b6').hide();$('#b7').show();$('.kc-body').show();">去体验一下&gt;&gt;</button>
     </div>
     <script>
